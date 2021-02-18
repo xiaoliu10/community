@@ -54,15 +54,15 @@ Finish date: 2021-02-10
 
 - registry zhangxun
 
-    - etcd
+    - etcd done
     - kubernetes
-    - nacos
+    - nacos done
     - servicediscovery zhangxun
-        - ~~zookeeper~~
-        - consul
-        - etcd
-        - file
-        - nacos
+        - ~~zookeeper~~ - 启动报错
+        - consul done
+        - etcd - application.name 不同时消费者找不到生产者提供的服务
+        - file - 启动报错
+        - nacos done
 
 - seata tiecheng - done
 
